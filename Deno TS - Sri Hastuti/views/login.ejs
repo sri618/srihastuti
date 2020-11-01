@@ -1,0 +1,10 @@
+<% if(subdata.statusLogin != '') { %>
+    <p>
+           <%= subdata.statusLogin %>
+    </p>
+    <% } %>
+    <form action="login" method="post">
+           <p><input type="text" name="username" id=""> Nama User</p>
+           <p><input type="password" name="paswd" id=""> password</p>
+           <p><input type="submit" value="Login"></p>
+   </form>  
